@@ -36,7 +36,7 @@
 			"description": "A collection of items that describe navigational links, distinct from entity relationships. Link items should contain a `rel` attribute to describe the relationship and an `href` attribute to point to the target URI. Entities should include a link `rel` to `self`.",
 			"type": "array",
 			"items": {
-				"type": "object"
+				"$ref": "https://raw.githubusercontent.com/mountain-pass/siren-swagger/master/src/main/resources/schemas/link.schema.json"
 			}
 		}
 	}

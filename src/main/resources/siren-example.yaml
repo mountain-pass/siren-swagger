@@ -45,7 +45,7 @@ paths:
           description: Successful response, with a representation of the Tax Filing.
           schema:
             # Reference to a Schema Object described in 'definitions' section
-            $ref: "schemas/entity.schema.json"
+            $ref: "https://raw.githubusercontent.com/mountain-pass/siren-swagger/master/src/main/resources/schemas/entity.schema.json"
           examples:
             # Example message, keyed by media type
             application/json :
