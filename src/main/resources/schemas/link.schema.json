@@ -1,0 +1,38 @@
+{
+		"description": "Links represent navigational transitions.",
+		"type": "object",
+		"title": "Link",
+		"required": [
+			"rel",
+			"href"
+		],
+		"properties": {
+			"class": {
+				"description": "Describes aspects of the link based on the current representation. Possible values are implementation-dependent and should be documented.",
+				"type": "array",
+				"items": {
+					"type": "string"
+				}
+			},
+			"title": {
+				"description": "Text describing the nature of a link.",
+				"type": "string"
+			},
+			"rel": {
+				"description": "Defines the relationship of the link to its entity, per Web Linking (RFC5988).",
+				"type": "array",
+				"items": {
+					"type": "string"
+				}
+			},
+			"href": {
+				"description": "The URI of the linked resource.",
+				"type": "string",
+				"format": "uri"
+			},
+			"type": {
+				"description": "Defines media type of the linked resource, per Web Linking (RFC5988).",
+				"type": "string"
+			}
+		}
+	}
